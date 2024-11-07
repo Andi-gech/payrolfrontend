@@ -1,0 +1,12 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(100%); /* Start from off-screen right */
+  }
+  to {
+    transform: translateX(0); /* End at on-screen */
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease-out forwards; /* Adjust timing as needed */
+}
